@@ -7,7 +7,7 @@ retail:
     type: bigquery
     method: service-account
     keyfile: /usr/local/airflow/include/gcp/retail-sales.json
-    project: retail-sales-413013
+    project: retail-sales
     dataset: retail
     threads: 1
     timeout_seconds: 300

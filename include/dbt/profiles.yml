@@ -1,0 +1,14 @@
+# profiles.yml
+
+retail:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/retail-sales-413013-c5d83536b716.json
+    project: retail-sales-413013
+    dataset: retail
+    threads: 1
+    timeout_seconds: 300
+    location: US
